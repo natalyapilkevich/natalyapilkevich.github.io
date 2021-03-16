@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Портфолио Пилькевич Наталья</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Портфолио Пилькевич Наталья">
+    <link rel="preload" href="fonts/AvenirNext-Regular.woff2" as="font">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <section class="contacts">
+        <h1>Пилькевич Наталья</h1>
+        <p>
+          <span>PHONE</span>
+          <a href="tel:+79151328727">+7-915-132-87-27</a>
+        </p>
+        <p>
+          <span>EMAIL</span>
+          <a href="mailto:nataly.pilkevich@yandex.ru">nataly.pilkevich@yandex.ru</a>
+        </p>
+      </section>
+      <section class="methods">
+        <p><b>Во всех проектах применяются следующие технологии и методы:</b></p>
+          <ul>
+            <li>Использована методология БЭМ</li>
+            <li>Использован препроцессор SASS</li>
+            <li>Вёрстка сделана Pixel Perfect</li>
+            <li>Кроссбраузерность и кроссплатформенность</li>
+            <li>Адаптивная верстка</li>
+            <li>Ретинизация изображений, использование picture</li>
+            <li>SVG-спрайт</li>
+        </ul>
+      </section>
+      <section class="projects">
+        <h2>Проекты</h2>
+        <ol>
+          <li class="projects__item">
+            <div class="projects__item-image">
+              <picture>
+                <source type="image/webp" media="(max-width: 767px)" srcset="jewellery/img/bg-main-topic-mobile@1x.webp 1x, jewellery/img/bg-main-topic-mobile@2x.webp 2x">
+                <source type="image/webp" srcset="jewellery/img/bg-main-topic-desktop@1x.webp 1x, jewellery/img/bg-main-topic-desktop@2x.webp 2x">
+                <img src="jewellery/img/bg-main-topic-desktop@1x.jpg" srcset="jewellery/img/bg-main-topic-desktop@2x.jpg 2x" alt="Украшения" width="1366" height="463">
+              </picture>
+            </div>
+            <div class="projects__item-description">
+              <a href="jewellery/index.html">
+                <h2>Jewellery - ювелирные украшения</h2>
+              </a>
+              <p>Интернет-магазин ювелирных украшений.</p>
+              <p>Проект представлен на 3-х страницах (главная, страница каталога и карточка продукта)</p>
+              <p>Для главной страницы реализованы всплывающее окно с формой по клику на ссылку "Login", слайдер, раскрывающийся список (аккордеон).</p>
+              <p>Для страницы каталога (переход по "Shop now" на главной) реализованы раскрывающийся список (аккордеон) для фильтров, сброс выбранных фильтров по кнопке "Clear All", на мобильных устройствах показ секции фильтров во всплывающем окне.</p>
+              <p>Для страницы карточка продукта реализован слайдер на мобильных устройствах для фотографий, всплывающее окно по кнопке "Add to cart".</p>
+              <p>Для мобильных устройств предусмотрено раскрывающееся меню.</p>
+              <a href="https://github.com/natalyapilkevich/Jellewery">А здесь можно посмотреть рабочий репозиторий этого проекта на GitHub.</a>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div class="projects__item-image">
+              <picture>
+                <source type="image/webp" media="(max-width: 767px)" srcset="israil/img/main_girl-mobile@1x.webp 1x, israil/img/main_girl-mobile@2x.webp 2x">
+                <source type="image/webp" srcset="israil/img/main_girl-desktop@1x.webp 1x, israil/img/main_girl-desktop@2x.webp 2x">
+                <img src="israil/img/main_girl-desktop@1x.jpg" srcset="israil/img/main_girl-desktop@2x.jpg 2x" alt="Девушка с флагом" width="1366" height="906">
+              </picture>
+            </div>
+            <div class="projects__item-description">
+              <a href="israil/index.html">
+                <h2>Израиль</h2>
+              </a>
+              <p>Посадочная страница компании, специализирующейся на учебных программах и стажировках в Израиле.</p>
+              <p>Одностраничный сайт на флексбоксах.</p>
+              <p>По кнопке "Заказать звонок" реализовано всплывающее окно с формой. Для формы предусмотрена валидация и показ ошибки при невалидных данных.</p>
+              <p>Раздел "Программы" представляет собой табы, он и фотогаллерея "Жизнь в Израиле" на мобильных устройствах преобразовывается в слайдер.</p>
+              <p>Раздел "Частые вопросы" представляет собой аккордеон, а раздел "Отзывы" - слайдер.</p>
+              <a href="https://github.com/natalyapilkevich/Israel">А здесь можно посмотреть рабочий репозиторий этого проекта на GitHub.</a> 
+            </div>           
+          </li>
+          <li class="projects__item">
+            <div class="projects__item-image">
+              <picture>
+                <source type="image/webp" media="(max-width: 767px)" srcset="antarctic/img/bg-head-icebergs-mobile@1x.webp 1x, antarctic/img/bg-head-icebergs-mobile@2x.webp 2x">
+                <source type="image/webp" srcset="antarctic/img/bg-head-icebergs-desktop@1x.webp 1x, antarctic/img/bg-head-icebergs-desktop@2x.webp 2x">
+                <img src="antarctic/img/bg-head-icebergs-desktop@1x.jpg" srcset="antarctic/img/bg-head-icebergs-desktop@2x.jpg 2x" alt="Панорама с айсбергом" width="1366" height="650">
+              </picture>
+            </div>
+            <div class="projects__item-description">
+              <a href="antarctic/index.html">
+                <h2>Круизы в Антарктику</h2>
+              </a>
+              <p>Лендинг компании, специализирующейся на морских круизах в Антарктику.</p>
+              <p>Одностраничный сайт на флексбоксах.</p>
+              <p>Для мобильных устройств предусмотрено раскрывающееся меню</p>
+              <a href="https://github.com/natalyapilkevich/Antarctic">А здесь можно посмотреть рабочий репозиторий этого проекта на GitHub.</a>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div class="projects__item-image">
+              <img src="kekstagram/img/upload-default-image.jpg" alt="Кот" width="586" height="587">
+            </div>
+            <div class="projects__item-description">
+              <a href="kekstagram/index.html">
+                <h2>Кекстаграмм</h2>
+              </a>
+              <p>Сервис просмотра изображений.</p>
+              <p>Верстка была подготовлена, велась работа только с JavaScript.</p>
+              <p>Реализованы возможности загрузки и редактирования новых изображений, просмотр и фильтрация изображений, загруженных ранее другими пользователями</p>
+              <a href="https://github.com/natalyapilkevich/1256225-kekstagram-20">А здесь можно посмотреть рабочий репозиторий этого проекта на GitHub</a>
+            </div>
+          </li> 
+        </ol>
+      </section>
+    </main>
+  </body>
